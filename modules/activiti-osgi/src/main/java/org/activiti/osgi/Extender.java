@@ -59,7 +59,7 @@ public class Extender implements BundleTrackerCustomizer, ServiceTrackerCustomiz
   private static BundleContext context;
   private final BundleTracker bundleTracker;
   private final ServiceTracker engineServiceTracker;
-  private long timeout = 5000;
+  private long timeout = 10 * 60 * 1000;
   private Map<Long, List<BundleScriptEngineResolver>> resolvers = new ConcurrentHashMap<Long, List<BundleScriptEngineResolver>>();
 
   public Extender(BundleContext context) {

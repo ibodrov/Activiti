@@ -4,6 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <name>Activiti - OSGi</name>
+  <groupId>jet.scdp.activiti</groupId>
   <artifactId>activiti-osgi</artifactId>
   <packaging>bundle</packaging>
 
